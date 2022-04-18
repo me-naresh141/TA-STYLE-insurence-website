@@ -1,0 +1,359 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* custom style */
+body {
+  font-family: "Karla", sans-serif;
+  background-color: rgb(46, 45, 45);
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.heading {
+  padding: 0 20px;
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+  line-height: 60px;
+}
+.nav {
+  padding: 0 20px;
+  margin-top: 10px;
+}
+.nav a {
+  margin-right: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: gray;
+}
+.btn {
+  font-size: 15px;
+  padding: 10px;
+  color: gray;
+  border: 1px solid gray;
+  background-color: white;
+  text-transform: uppercase;
+}
+/* hero-section */
+.hero-article {
+  background-color: rgb(45, 38, 64);
+  display: flex;
+  justify-content: space-around;
+  height: 400px;
+}
+.article-div {
+  width: 500px;
+  padding: 20px;
+}
+.heading-2 {
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 900;
+}
+.pera {
+  color: white;
+  line-height: 1.3;
+}
+.button {
+  padding: 10px;
+  color: white;
+  background-color: rgb(45, 38, 64);
+  border: 2px solid white;
+  font-weight: 900;
+  margin: 20px 0;
+  border-radius: 5%;
+  text-transform: uppercase;
+}
+hr {
+  width: 150px;
+  margin-left: 30px;
+}
+.img-div {
+  width: 400px;
+  height: 500px;
+  padding-top: 20px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+/* about-section */
+.about-section {
+  background-color: white;
+  padding-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.about-img-div {
+  width: 400px;
+  height: 400px;
+}
+.about-img {
+  width: 100%;
+  height: 100%;
+}
+.about-heading-div {
+  width: 400px;
+  margin-top: 100px;
+}
+
+.heading-3 {
+  color: black;
+  font-size: 30px;
+  text-transform: capitalize;
+}
+.about-pera {
+  color: gray;
+}
+.know-more-btn {
+  margin-top: 30px;
+  padding: 10px 30px;
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 5%;
+  color: gray;
+}
+/* different-section */
+.different-section {
+  background-color: white;
+  padding: 130px 0;
+  line-height: 1.5;
+}
+.d-hr {
+  margin-left: 5%;
+  color: gray;
+}
+.d-div {
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+.different-article {
+  display: flex;
+  justify-content: space-around;
+}
+.icon-div {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(138, 180, 240);
+  text-align: center;
+}
+.fa-solid {
+  font-size: 20px;
+  margin: 10px 0;
+  color: white;
+}
+.heading-4 {
+  font-size: 40px;
+  font-family: "DM Serif Display", serif;
+  line-height: 60px;
+  color: black;
+  font-weight: 900;
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+.d-div small {
+  font-size: 20px;
+  font-weight: 900;
+  margin: 10px 0;
+}
+.findout-div {
+  width: 1200px;
+  background-color: rgb(45, 38, 64);
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 0;
+  margin-top: 60px;
+}
+.heading-5 {
+  font-weight: 900;
+  color: white;
+}
+.how-we-work-btn {
+  margin: 40px;
+  padding: 0 20px;
+  color: white;
+  border: 2px solid white;
+  background-color: rgb(45, 38, 64);
+  font-weight: bold;
+}
+.insure-div {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+}
+.insure-div small {
+  font-size: 30px;
+  font-weight: bold;
+}
+.fa-brands {
+  color: gray;
+  font-size: 20px;
+  margin-left: 30px;
+}
+.hr {
+  width: 800px;
+  margin: 0 auto;
+}
+.last-nav {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 10px;
+}
+.last-nav a {
+  margin: 20px;
+  color: grey;
+  text-decoration: none;
+}
+
+/* footer */
+.footer-div{
+    background-color: rgb(45,38,64);
+    padding: 30px;
+    text-align: center;
+}
+.footer-div a{
+    color:lavender;
+    text-transform: capitalize;
+    text-decoration: none;
+}
